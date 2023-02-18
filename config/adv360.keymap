@@ -18,6 +18,11 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define MACLOCK LG(LC(Q))
+#define SPACE_RIGHT LC(RIGHT)
+#define SPACE_LEFT LC(LEFT)
+#define HYPER LS(LC(LA(LGUI)))
+
 / {
   behaviors {
     #include "macros.dtsi"
@@ -41,9 +46,9 @@
             bindings = <
          &kp EQUAL     &kp N1                 &kp N2        &kp N3     &kp N4  &kp N5                &tog 1                                                                            &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
            &kp TAB      &kp Q                  &kp W         &kp E      &kp R   &kp T                 &none                                                                            &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-           &kp ESC      &kp A                  &kp S         &kp D      &kp F   &kp G            &kp RETURN  &kp LCTRL  &kp LALT                          &kp LGUI      &mo 3  &kp BACKSPACE   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
-         &kp LSHFT      &kp Z                  &kp X         &kp C      &kp V   &kp B                 &none      &none  &kp HOME   &none   &none         &kp PG_UP      &none          &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
- &kp RIGHT_CONTROL  &kp GRAVE  &kp LA(LG(I))  &kp LEFT_ALT  &kp SPACE                      &kp BSPC   &kp LCMD     &mo 1                  &kp LEFT_ALT  &kp ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+           &kp ESC      &kp A                  &kp S         &kp D      &kp F   &kp G            &kp RETURN  &kp LCTRL  &mo 3                          &kp LGUI      &mo 3  &kp BACKSPACE   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+         &kp LSHFT      &kp Z                  &kp X         &kp C      &kp V   &kp B                 &none      &none  &kp HYPER   &none   &none         &kp PG_UP      &none          &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+          &kp RIGHT_CONTROL  &kp GRAVE  &kp LA(LG(I))  &kp LEFT_ALT  &kp SPACE                      &kp BSPC   &kp LCMD     &mo 1                  &kp LEFT_ALT  &kp ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
