@@ -23,6 +23,7 @@
 #define SPACE_LEFT LC(LEFT)
 #define HYPER LS(LC(LA(LGUI)))
 
+
 / {
   behaviors {
     #include "macros.dtsi"
@@ -48,7 +49,7 @@
            &kp TAB      &kp Q                  &kp W         &kp E      &kp R   &kp T                 &none                                                                            &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
            &kp ESC      &kp A                  &kp S         &kp D      &kp F   &kp G            &kp RETURN  &kp LCTRL  &mo 3                          &kp LGUI      &mo 3  &kp BACKSPACE   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
          &kp LSHFT      &kp Z                  &kp X         &kp C      &kp V   &kp B                 &none      &none  &kp HYPER   &none   &none         &kp PG_UP      &none          &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-          &kp RIGHT_CONTROL  &kp GRAVE  &kp LA(LG(I))  &kp LEFT_ALT  &kp SPACE                      &kp BSPC   &kp LCMD     &mo 1                  &kp LEFT_ALT  &kp ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+          &kp RIGHT_CONTROL  &kp GRAVE  &kp LA(LG(I))  &kp LEFT_ALT  &kp SPACE                      &kp BSPC   &kp LCMD     &mo 1                  &kp LEFT_ALT  &kp ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mt 5
             >;
         };
 
@@ -79,6 +80,16 @@
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                             &none       &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC                                 &rgb_ug RGB_TOG  &bl BL_TOG   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &none         &none   &none
+            >;
+        };
+
+        layer_windows {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                      &trans &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &trans                                                      &trans  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans      &trans                 &trans  &trans   &trans  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &trans   &trans      &trans  &trans   &trans  &trans   &trans   &trans  &trans  &trans  &trans   &trans   &trans   &trans
+ &kp LALT  &trans  &trans  &kp LCTRL  &trans                &trans  &kp LCTRL  &trans  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
 
