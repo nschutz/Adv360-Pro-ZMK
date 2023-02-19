@@ -132,7 +132,7 @@
  &kp TAB            &kp TAB            &kp Q         &kp W         &kp E         &kp R    &trans                                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &kp ESC            &kp ESC            &kp A         &kp S         &kp D         &kp F    &trans     &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &kp LSHFT          &kp LSHFT          &kp Z         &kp X         &kp C         &kp B    &trans     &trans      &trans  &none   &none     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp RIGHT_CONTROL  &kp RIGHT_CONTROL  &kp GRAVE     &kp ENTER     &kp LEFT_ALT           &kp SPACE  &kp LSHIFT  &kp V                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &kp RIGHT_CONTROL  &kp RIGHT_CONTROL  &kp GRAVE     &kp ENTER     &kp LEFT_ALT           &kp LSHIFT &kp SPACE   &kp V                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
