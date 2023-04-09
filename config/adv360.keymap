@@ -42,27 +42,27 @@
     combos {
         compatible = "zmk,combos";
         combo_macLayer {
-            timeout-ms = <75>;
+            timeout-ms = <200>;
             key-positions = <28 71>;
             bindings = <&to 0>;
         };
         combo_musicProductionLayer {
-            timeout-ms = <75>;
+            timeout-ms = <200>;
             key-positions = <28 72>;
             bindings = <&to 8>;
         };
         combo_windowsLayer {
-            timeout-ms = <75>;
+            timeout-ms = <200>;
             key-positions = <28 2>;
             bindings = <&to 4>;
         };
         combo_starcraftLayer {
-            timeout-ms = <75>;
+            timeout-ms = <200>;
             key-positions = <28 4>;
             bindings = <&to 5>;
         };
         combo_fpsLayer {
-            timeout-ms = <75>;
+            timeout-ms = <200>;
             key-positions = <28 3>;
             bindings = <&to 6>;
         };
