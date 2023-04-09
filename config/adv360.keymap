@@ -22,7 +22,7 @@
 #define SPACE_RIGHT LC(RIGHT)
 #define SPACE_LEFT LC(LEFT)
 #define HYPERNOSHIFT LC(LA(LGUI))
-#define SEMIHYPER LA(LGUI)
+#define SEMIHYPER LC(LGUI)
 
 / {
   behaviors {
