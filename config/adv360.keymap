@@ -142,7 +142,7 @@
             >;
         };
 
-        layer_windowControl {
+        layer_WindowC {
             bindings = <
  &trans  &kp LS(LC(LA(LG(N1))))  &kp LS(LC(LA(LG(N2))))  &kp LS(LC(LA(LG(N3))))  &kp LS(LC(LA(LG(N4))))  &kp LS(LC(LA(LG(N5))))            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &kp LS(LC(LA(LG(J))))   &kp LS(LC(LA(LG(W))))   &kp LS(LC(LA(LG(E))))   &kp LS(LC(LA(LG(R))))   &kp LS(LC(LA(LG(T))))             &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
