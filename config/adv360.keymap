@@ -65,9 +65,9 @@
             bindings = <
 &kp EQUAL          &kp N1        &kp N2         &kp N3        &kp N4      &kp N5             &tog 1                                                                                  &mo 3           &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
 &kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T              &none                                                                                   &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
-&kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G              &kp RETURN  &mo 9       &mo 6              &none    &none  &kp LGUI       &mo 3         &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
-&kp LSHFT          &kp Z         &kp X          &kp C         &kp V       &kp B              &none       &none       &kp LSHFT          &none    &none  &kp PG_UP      &none         &none           &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
-&kp RIGHT_CONTROL  &kp GRAVE     &kp LA(LG(I))  &kp LEFT_ALT  &kp BACKSPACE                  &kp SPACE   &kp LCMD    &mo 8                             &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
+&kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G              &kp RETURN  &mo 10       &mo 6              &none    &none  &kp LGUI       &mo 3         &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
+&kp LSHFT          &kp Z         &kp X          &kp C         &kp V       &kp B              &none       &none        &kp LSHFT          &none    &none  &kp PG_UP      &none         &none           &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
+&kp RIGHT_CONTROL  &kp GRAVE     &kp LA(LG(I))  &kp LEFT_ALT  &kp BACKSPACE                  &kp SPACE   &kp LCMD     &mo 8                             &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
             >;
         };
 
@@ -132,13 +132,22 @@
             >;
         };
 
-        layer_keypad {
+        layer_option {
             bindings = <
-&trans       &trans     &trans       &trans            &trans       &trans         &trans                                                                    &trans        &trans        &trans       &trans         &trans         &trans           &trans
-&trans       &trans     &trans       &trans            &trans       &trans         &none                                                                     &none         &trans        &trans       &trans         &trans         &trans           &trans
-&trans       &trans     &trans       &kp LC(LS(TAB))   &kp UP       &kp LC(TAB)    &none      &trans     &trans     &none    &none    &trans     &trans      &none         &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT      &trans           &trans
-&trans       &trans     &trans       &kp LEFT          &kp DOWN     &kp RIGHT      &none      &none      &trans     &none    &none    &trans     &trans      &trans        &trans        &trans       &trans         &trans         &trans           &trans
-&mo 6        &trans     &trans       &trans            &trans                      &trans     &trans     &trans                       &trans     &trans      &trans                   &trans       &trans         &trans         &trans           &mo 6
+&trans       &trans     &trans       &trans                 &trans       &trans                 &trans                                                                    &trans        &trans        &trans       &trans         &trans         &trans           &trans
+&trans       &trans     &trans       &trans                 &mo 9        &trans                                                                                           &none         &trans        &trans       &trans         &trans         &trans           &trans
+&trans       &trans     &trans       &kp LC(LS(TAB))        &kp UP       &kp LC(TAB)            &none      &trans     &trans     &none    &none    &trans     &trans      &none         &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT      &trans           &trans
+&trans       &trans     &trans       &kp LEFT               &kp DOWN     &kp RIGHT              &none      &none      &trans     &none    &none    &trans     &trans      &trans        &trans        &trans       &trans         &trans         &trans           &trans
+&mo 6        &trans     &trans       &trans                 &trans                              &trans     &trans     &trans                       &trans     &trans      &trans                   &trans       &trans         &trans         &trans           &mo 6
+            >;
+        };
+        layer_option_r {
+            bindings = <
+ &trans  &trans  &trans  &trans             &trans  &trans                &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans             &trans  &trans                &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &kp LC(LA(MINUS))  &trans  &kp LC(LA(EQUAL))     &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans             &trans  &trans                &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans             &trans                        &trans  &trans  &trans                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
