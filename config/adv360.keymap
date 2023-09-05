@@ -145,7 +145,7 @@
             bindings = <
  &trans  &trans  &trans  &trans             &trans  &trans                &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans             &trans  &trans                &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &kp LC(LA(MINUS))  &trans  &kp LC(LA(EQUAL))     &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &kp LG(LA(MINUS))  &trans  &kp LG(LA(EQUAL))     &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans             &trans  &trans                &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans             &trans                        &trans  &trans  &trans                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
