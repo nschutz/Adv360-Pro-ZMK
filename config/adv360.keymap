@@ -117,8 +117,8 @@
  &kp ESC        &kp G      &kp N3     &kp N2   &kp N1    &kp E        &kp R                                                           &trans  &trans       &trans   &trans   &trans  &trans  &trans
  &kp BACKSPACE  &kp N6     &kp N5     &kp N4   &kp P     &kp Q        &kp W                                                           &trans  &kp RETURN   &kp G    &kp L    &kp H   &kp F   &kp RETURN
  &kp H          &kp A      &kp N8     &kp N7   &kp S     &kp D        &kp F        &kp LEFT_CONTROL  &mo 12    &none    &none  &trans  &trans  &trans       &kp RETURN   &kp G    &kp ESC  &kp W   &trans  &trans   
- &kp X          &kp Z      &kp N0     &kp N9   &kp B     &kp SPACE    &none        &none             &none    &none    &none  &trans  &none   &none        &trans       &trans   &trans   &trans  &trans  &trans
- &kp X          &kp T      &kp X      &kp C    &kp V                  &kp LSHIFT   &kp LEFT_ALT      &none                    &trans  &trans  &trans                    &trans   &trans   &trans  &trans  &to 0
+ &kp X          &kp Z      &kp N0     &kp N9   &kp B     &kp SPACE    &none        &none             &none     &none    &none  &trans  &none   &none        &trans       &trans   &trans   &trans  &trans  &trans
+ &kp X          &kp T      &kp X      &kp C    &kp V                  &kp LSHIFT   &kp LEFT_ALT      &mo 13    &trans  &trans  &trans                    &trans   &trans   &trans  &trans  &to 0
             >;
         };
         layer_windowControl_7 {
@@ -179,5 +179,14 @@
             >;
         };
 
+        layer_fn_13 {
+            bindings = <
+ &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15            &tog 1                                                   &mo 3   &kp F7  &kp F8        &kp F9         &kp F10         &kp F11        &kp F12
+ &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10            &none                                                    &none   &trans  &kp KP_N7     &kp KP_N8      &kp KP_N9       &kp KP_MINUS   &kp BSLH
+ &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5             &none   &trans  &trans   &none    &none  &trans  &trans  &none   &trans  &kp KP_N4     &kp KP_N5      &kp KP_N6       &kp KP_PLUS    &kp SQT
+ &trans  &to Y    &to U    &to I    &to O    &to H              &none   &none   &trans   &none    &none  &trans  &none   &none   &trans  &kp KP_N1     &kp KP_N2      &kp KP_N3       &kp KP_ENTER   &kp RSHFT
+ &trans  &to J    &trans   &trans   &trans                      &trans  &trans  &trans                   &trans  &trans  &trans          &kp KP_N0     &kp KP_N0      &kp KP_DOT      &kp RBKT       &trans
+            >;
+        };
     };
 };
