@@ -118,7 +118,7 @@
  &kp BACKSPACE  &kp N6     &kp N5     &kp N4   &kp P     &kp Q        &kp W                                                           &trans  &kp RETURN   &kp G    &kp L    &kp H   &kp F   &kp RETURN
  &kp H          &kp A      &kp N8     &kp N7   &kp S     &kp D        &kp F        &kp LEFT_CONTROL  &mo 12    &none    &none  &trans  &trans  &trans       &kp RETURN   &kp G    &kp ESC  &kp W   &trans  &trans   
  &kp X          &kp Z      &kp N0     &kp N9   &kp B     &kp SPACE    &none        &none             &none    &none    &none  &trans  &none   &none        &trans       &trans   &trans   &trans  &trans  &trans
- &kp X          &kp X      &kp X      &kp C    &kp V                  &kp LSHIFT   &kp LEFT_ALT      &none                    &trans  &trans  &trans                    &trans   &trans   &trans  &trans  &to 0
+ &kp X          &kp T      &kp X      &kp C    &kp V                  &kp LSHIFT   &kp LEFT_ALT      &none                    &trans  &trans  &trans                    &trans   &trans   &trans  &trans  &to 0
             >;
         };
         layer_windowControl_7 {
