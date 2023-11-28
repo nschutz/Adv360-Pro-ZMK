@@ -115,7 +115,7 @@
         layer_AgeOfEmpires_6 {
             bindings = <
  &kp ESC        &kp G      &kp N3     &kp N2   &kp N1    &kp E        &kp R                                                           &trans  &trans       &trans   &trans   &trans  &trans  &trans
- &kp BACKSPACE  &kp N6     &kp N5     &kp N4   &kp P     &kp Q        &kp W                                                           &trans  &kp RETURN   &kp G    &kp L    &kp H   &kp F   &kp RETURN
+ &kp BACKSPACE  &kp N6     &kp N5     &kp N4   &kp A     &kp Q        &kp W                                                           &trans  &kp RETURN   &kp G    &kp L    &kp H   &kp F   &kp RETURN
  &kp H          &kp A      &kp N8     &kp N7   &kp S     &kp D        &kp F        &kp LEFT_CONTROL  &mo 13    &none    &none  &trans  &trans  &trans       &kp RETURN   &kp G    &kp ESC  &kp W   &trans  &trans   
  &kp X          &kp Z      &kp N0     &kp N9   &kp B     &kp SPACE    &none        &none             &none     &none    &none  &trans  &none   &none        &trans       &trans   &trans   &trans  &trans  &trans
  &kp X          &kp T      &kp X      &kp C    &kp V                  &kp LSHIFT   &kp LEFT_ALT      &mo 12    &trans  &trans  &trans                    &trans   &trans   &trans  &trans  &to 0
@@ -181,7 +181,7 @@
 
         layer_aoe_modifier_13 {
             bindings = <
- &kp F1   &kp F5   &kp KP_DOT   &kp KP_PLUS   &kp KP_MINUS   &kp BSLH   &tog 1                                                   &mo 3   &kp F7  &kp F8        &kp F9         &kp F10         &kp F11        &kp F12
+ &kp F1   &kp F5   &kp KP_DOT   &kp KP_PLUS   &kp KP_MINUS   &kp BSLH   &kp SEMI                                                 &mo 3   &kp F7  &kp F8        &kp F9         &kp F10         &kp F11        &kp F12
  &kp F2   &kp F6   &kp E        &kp W         &kp Q          &kp R      &kp T                                                    &none   &trans  &kp KP_N7     &kp KP_N8      &kp KP_N9       &kp KP_MINUS   &kp BSLH
  &kp F3   &kp F7   &kp A        &kp S         &kp D          &kp F      &none   &trans  &trans   &none    &none  &trans  &trans  &none   &trans  &kp KP_N4     &kp KP_N5      &kp KP_N6       &kp KP_PLUS    &kp SQT
  &kp F4   &kp F8   &to Z        &to X         &to C          &to V      &none   &none   &trans   &none    &none  &trans  &none   &none   &trans  &kp KP_N1     &kp KP_N2      &kp KP_N3       &kp KP_ENTER   &kp RSHFT
