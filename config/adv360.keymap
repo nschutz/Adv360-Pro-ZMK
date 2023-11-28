@@ -52,7 +52,7 @@
         compatible = "zmk,keymap";
 
 
-        default_layer {
+        default_layer_0 {
             bindings = <
 &kp EQUAL          &kp N1        &kp N2         &kp N3        &kp N4      &kp N5       &tog 1                                                                                         &mo 3           &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
 &kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T        &none                                                                                          &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
@@ -61,7 +61,7 @@
 &kp LEFT_ALT       &kp GRAVE     &kp LA(LG(I))  &kp BSPC      &kp SPACE                &kp RIGHT_CONTROL &kp LCMD   &mo 8                               &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
             >;
         };
-    layer_musicProduction {
+    layer_musicProduction_1 {
             bindings = <
 &kp EQUAL          &kp N1        &kp N2         &kp N3        &kp N4      &kp N5             &tog 1                                                                                           &mo 3           &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
 &kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T              &none                                                                                            &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
@@ -71,7 +71,7 @@
             >;
         };
 
-    layer_FPS {
+    layer_FPS_2 {
             bindings = <
  &kp EQUAL          &kp N1             &kp N2        &kp N3        &kp N4        &kp N5   &kp N6                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &kp TAB            &kp O              &kp Q         &kp W         &kp E         &kp R    &kp T                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -82,7 +82,7 @@
         };
 
 
-        layer_mod {
+        layer_mod_3 {
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                              &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
   &none         &none         &none         &none         &none         &none                       &bootloader                                                                         &bootloader         &none         &none         &none         &none         &none   &none
@@ -92,7 +92,7 @@
             >;
         };
 
-        layer_Windows {
+        layer_Windows_4 {
             bindings = <
        &trans  &trans  &trans         &trans  &trans  &trans            &trans                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
        &trans  &trans  &trans         &trans  &trans  &trans            &trans                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -102,7 +102,7 @@
             >;
         };
 
-        layer_Starcraft {
+        layer_Starcraft_5 {
             bindings = <
  &kp N6   &kp N7     &kp N8     &kp N9   &kp N0    &kp MINUS    &kp EQUAL                                                              &trans       &trans       &trans   &trans   &trans  &trans  &trans
  &kp Y    &kp U      &kp I      &kp O    &kp P     &kp LBKT     &kp RBKT                                                               &trans       &kp RETURN   &kp G    &kp L    &kp H   &kp F   &kp RETURN
@@ -112,17 +112,17 @@
             >;
         };
 
-        layer_fn {
+        layer_fn_6 {
             bindings = <
- &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15            &tog 1                                                  &mo 3   &kp F7  &kp F8        &kp F9         &kp F10         &kp F11        &kp F12
- &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10            &none                                                   &none   &trans  &kp KP_N7     &kp KP_N8      &kp KP_N9       &kp KP_MINUS   &kp BSLH
- &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5             &none  &trans  &trans   &none    &none  &trans  &trans  &none   &trans  &kp KP_N4     &kp KP_N5      &kp KP_N6       &kp KP_PLUS    &kp SQT
- &trans  &to 0    &to 4    &to 2    &to 5    &to 1              &none   &none  &trans   &none    &none  &trans  &none   &none   &trans  &kp KP_N1     &kp KP_N2      &kp KP_N3       &kp KP_ENTER   &kp RSHFT
- &trans  &trans   &trans   &trans   &trans                     &trans  &trans  &trans                   &trans  &trans  &trans          &kp KP_N0     &kp KP_N0      &kp KP_DOT      &kp RBKT       &trans
+ &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15            &tog 1                                                   &mo 3   &kp F7  &kp F8        &kp F9         &kp F10         &kp F11        &kp F12
+ &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10            &none                                                    &none   &trans  &kp KP_N7     &kp KP_N8      &kp KP_N9       &kp KP_MINUS   &kp BSLH
+ &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5             &none   &trans  &trans   &none    &none  &trans  &trans  &none   &trans  &kp KP_N4     &kp KP_N5      &kp KP_N6       &kp KP_PLUS    &kp SQT
+ &trans  &to 0    &to 4    &to 2    &to 5    &to 1              &none   &none   &trans   &none    &none  &trans  &none   &none   &trans  &kp KP_N1     &kp KP_N2      &kp KP_N3       &kp KP_ENTER   &kp RSHFT
+ &trans  &to 12   &trans   &trans   &trans                      &trans  &trans  &trans                   &trans  &trans  &trans          &kp KP_N0     &kp KP_N0      &kp KP_DOT      &kp RBKT       &trans
             >;
         };
 
-        layer_windowControl {
+        layer_windowControl_7 {
             bindings = <
  &trans  &kp LS(LC(LA(LG(N1))))  &kp LS(LC(LA(LG(N2))))  &kp LS(LC(LA(LG(N3))))  &kp LS(LC(LA(LG(N4))))  &kp LS(LC(LA(LG(N5))))  &trans                                                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &kp LS(LC(LA(LG(J))))   &kp LS(LC(LA(LG(W))))   &kp LS(LC(LA(LG(E))))   &kp LS(LC(LA(LG(R))))   &kp LS(LC(LA(LG(T))))   &trans                                                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -132,7 +132,7 @@
             >;
         };
 
-        layer_option {
+        layer_option_8 {
             bindings = <
 &trans       &trans     &trans       &trans                 &trans       &trans                 &trans                                                                    &trans        &trans        &trans       &trans         &trans         &trans           &trans
 &trans       &trans     &trans       &trans                 &mo 9        &trans                 &trans                                                                    &none         &trans        &trans       &trans         &trans         &trans           &trans
@@ -141,7 +141,7 @@
 &mo 6        &trans     &trans       &kp LEFT_ALT           &trans                              &trans     &trans     &trans                       &trans     &trans      &trans                   &trans       &trans         &trans         &trans           &mo 6
             >;
         };
-        layer_option_r {
+        layer_option_r_9 {
             bindings = <
  &trans  &trans  &trans  &trans             &trans  &trans                &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans             &trans  &trans                &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -151,7 +151,7 @@
             >;
         };
 
-        layer_musicProductionAlt {
+        layer_musicProductionAlt_10 {
             bindings = <
 &kp EQUAL          &kp N1                  &kp N2                  &kp N3                  &kp N4                     &kp N5           &tog 1                                                                                             &mo 3           &kp N6            &kp N7              &kp N8               &kp N9          &kp N0             &kp MINUS
 &kp TAB            &kp LC(LG(Q))           &kp LC(LG(W))           &kp LC(LG(E))           &kp LC(LG(R))              &kp LC(LG(T))    &none                                                                                              &none           &kp LC(LG(Y))     &kp LC(LG(U))       &kp LC(LG(I))        &kp LC(LG(O))   &kp LC(LG(P))      &kp BSLH
@@ -160,7 +160,7 @@
 &kp RIGHT_CONTROL  &kp GRAVE               &kp LA(LG(I))           &kp LEFT_ALT            &kp LC(LG(BACKSPACE))                       &kp SPACE   &kp LCMD           &mo 8                                 &kp LEFT_ALT   &kp ENTER      &kp SPACE                         &kp UP              &kp DOWN             &kp LBKT        &kp RBKT           &sl 4
             >;
         };
-        layer_empty {
+        layer_empty_11 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -169,5 +169,15 @@
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
+        layer_AgeOfEmpires_12 {
+            bindings = <
+ &kp ESC        &kp G      &kp N3     &kp N2   &kp N1    &kp R        &kp T                                                                         &trans       &trans       &trans   &trans   &trans  &trans  &trans
+ &kp BACKSPACE  &kp N6     &kp N5     &kp N4   &kp Q     &kp W        &kp E                                                                         &trans       &kp RETURN   &kp G    &kp L    &kp H   &kp F   &kp RETURN
+ &kp H          &kp A      &kp N8     &kp N7   &kp S     &kp D        &kp F              &kp LSHIFT        &none    &none    &none  &trans  &trans  &trans       &kp RETURN   &kp G    &kp ESC  &kp W   &trans  &trans   
+ &kp X          &kp Z      &kp N0     &kp n9   &kp B     &kp SPACE    &none              &none             &none    &none    &none  &trans  &none   &none        &trans       &trans   &trans   &trans  &trans  &trans
+ &kp X          &kp X      &kp X      &kp C    &kp V                  &kp LEFT_CONTROL   &kp LEFT_ALT      &none                    &trans  &trans  &trans                    &trans   &trans   &trans  &trans  &to 0
+            >;
+        };
+
     };
 };
