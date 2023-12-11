@@ -94,11 +94,11 @@
 
         layer_Windows_4 {
             bindings = <
-       &trans  &trans  &trans         &trans  &trans  &trans            &trans                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-       &trans  &trans  &trans         &trans  &trans  &trans            &trans                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-       &trans  &trans  &trans         &trans  &trans  &trans            &trans  &mo 14            &mo 12   &none    &none  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-       &trans  &trans  &trans         &trans  &trans  &trans            &trans  &trans            &trans   &none    &none  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp LEFT_ALT  &trans  &kp LS(LC(I))  &trans  &trans                    &trans  &kp LEFT_CONTROL  &trans                   &kp LEFT_CONTROL   &trans  &trans          &trans  &trans  &trans  &trans  &trans
+       &trans    &trans  &trans         &trans  &trans  &trans            &trans                                                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+       &trans    &trans  &trans         &trans  &trans  &trans            &trans                                                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+       &trans    &trans  &trans         &trans  &trans  &trans            &trans        &mo 14            &mo 12   &none    &none  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+       &trans    &trans  &trans         &trans  &trans  &trans            &trans        &trans            &trans   &none    &none  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+       &kp LCMD  &trans  &kp LS(LC(I))  &trans  &trans                    &kp LEFT_ALT  &kp LEFT_CONTROL  &trans                   &kp LEFT_CONTROL   &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
