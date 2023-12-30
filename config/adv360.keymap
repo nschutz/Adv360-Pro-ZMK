@@ -134,10 +134,10 @@
         layer_option_8 {
             bindings = <
 &trans       &trans     &trans       &trans                 &trans       &trans                 &trans                                                                    &trans        &trans        &trans       &trans         &trans         &trans           &trans
-&trans       &trans     &trans       &trans                 &mo 9        &trans                 &trans                                                                    &none         &trans        &trans       &trans         &trans         &trans           &trans
+&trans       &kp N6     &kp N7       &kp N8                 &kp N9       &kp N0                 &trans                                                                    &none         &trans        &trans       &trans         &trans         &trans           &trans
 &trans       &trans     &trans       &kp LC(LS(TAB))        &kp UP       &kp LC(TAB)            &none      &trans     &trans     &none    &none    &trans     &trans      &none         &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT      &trans           &trans
 &trans       &trans     &trans       &kp LEFT               &kp DOWN     &kp RIGHT              &none      &none      &trans     &none    &none    &trans     &trans      &trans        &trans        &trans       &trans         &trans         &trans           &trans
-&mo 12        &trans     &trans       &kp LEFT_ALT           &trans                              &trans     &trans     &trans                       &trans     &trans      &trans                   &trans       &trans         &trans         &trans           &mo 12
+&mo 12        &trans     &trans       &kp LEFT_ALT          &mo 9                               &trans     &trans     &trans                       &trans     &trans      &trans                   &trans       &trans         &trans         &trans           &mo 12
             >;
         };
         layer_option_r_9 {
