@@ -96,7 +96,7 @@
             bindings = <
        &trans    &trans  &trans         &trans  &trans  &trans            &trans                                                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
        &trans    &trans  &trans         &trans  &trans  &trans            &trans                                                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-       &trans    &trans  &trans         &trans  &trans  &trans            &trans        &mo 14            &mo 12   &none    &none  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+       &trans    &trans  &trans         &trans  &trans  &trans            &trans        &mo 15            &mo 12   &none    &none  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
        &trans    &trans  &trans         &trans  &trans  &trans            &trans        &trans            &trans   &none    &none  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
        &kp LCMD  &trans  &kp LS(LC(I))  &trans  &trans                    &kp LEFT_ALT  &kp LEFT_CONTROL  &trans                   &kp LEFT_CONTROL   &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
@@ -164,13 +164,13 @@
             bindings = <        
 &kp EQUAL          &kp N1        &kp N2         &kp N3        &kp N4      &kp N5       &tog 1                                                                                                  &mo 3           &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
 &kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T        &none                                                                                                   &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
-&kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G        &kp RETURN        &kp LEFT_ALT       &mo 12              &none   &none    &kp LGUI       &mo 3          &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
+&kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G        &kp RETURN        &mo 14             &mo 12              &none   &none    &kp LGUI       &mo 3          &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
 &kp LSHFT          &kp Z         &kp X          &kp C         &kp V       &kp B        &none             &none              &kp LSHFT           &none   &none    &kp PG_UP      &none          &none           &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
-&kp LEFT_ALT       &kp GRAVE     &kp LA(LG(I))  &kp BSPC      &kp SPACE                &kp LSHIFT        &kp LEFT_CONTROL   &kp Y                                &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
+&kp LEFT_ALT       &kp GRAVE     &kp Y          &kp BSPC      &kp SPACE                &kp LEFT_ALT      &kp LEFT_CONTROL   &mo 14                                &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
             >;
         };
 
-        layer_fn_12 {
+        layer_fn_and_layer_menu_12 {
             bindings = <
  &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15            &tog 1                                                   &mo 3   &kp F7  &kp F8        &kp F9         &kp F10         &kp F11        &kp F12
  &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10            &none                                                    &none   &trans  &kp KP_N7     &kp KP_N8      &kp KP_N9       &kp KP_MINUS   &kp BSLH
@@ -189,7 +189,18 @@
  &kp F5   &kp F9   &kp Z        &kp X         &kp C                     &trans  &trans  &trans                   &trans  &trans  &trans          &kp KP_N0     &kp KP_N0      &kp KP_DOT      &kp RBKT       &trans
             >;
         };
-        layer_windowControl_14 {
+
+        layer_stormgate_window_position_14 {
+            bindings = <
+ &trans  &trans        &trans         &kp F4        &trans      &trans          &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp Q         &kp F3         &kp F2        &kp F1      &kp T           &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp F8        &kp F7         &kp F6        &kp F5      &kp G           &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp Z         &kp X          &kp C         &kp V       &kp B           &trans  &trans  &kp LEFT_CONTROL     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans        &trans         &trans        &trans                      &trans  &trans  &trans                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_windowControl_15 {
             bindings = <
  &trans  &kp LS(LC(LA(N1)))  &kp LS(LC(LA(N2)))  &kp LS(LC(LA(N3)))  &kp LS(LC(LA(N4)))  &kp LS(LC(LA(N5)))  &trans                                                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &kp LS(LC(LA(J)))   &kp LS(LC(LA(W)))   &kp LS(LC(LA(E)))   &kp LS(LC(LA(R)))   &kp LS(LC(LA(T)))   &trans                                                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -199,7 +210,16 @@
             >;
         };
 
-        layer_empty_15 {
+        layer_stormgate_control_groups_16 {
+            bindings = <
+ &trans  &trans        &trans         &kp F4        &trans      &trans          &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp Q         &kp F3         &kp F2        &kp F1      &kp T           &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp F8        &kp F7         &kp F6        &kp F5      &kp G           &trans  &kp LSHIFT  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp Z         &kp X          &kp C         &kp V       &kp B           &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans        &trans         &trans        &trans                      &trans  &trans  &trans                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+        layer_empty_16 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
