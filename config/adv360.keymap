@@ -46,6 +46,11 @@
             key-positions = <12 13>;
             bindings = <&to 0>;
         };
+        combo_layer_pick {
+            timeout-ms = <75>;
+            key-positions = <0 1>;
+            bindings = <&to 12>;
+        };
     };
 
     keymap {
@@ -56,7 +61,7 @@
             bindings = <
 &kp EQUAL          &kp N1        &kp N2         &kp N3        &kp N4      &kp N5       &tog 1                                                                                         &mo 3           &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
 &kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T        &kp LEFT_ALT                                                                                   &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
-&kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G        &kp RETURN        &mo 7      &mo 12              &none   &none    &kp LGUI       &mo 3          &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
+&kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G        &kp RETURN        &mo 7      &kp LEFT_ALT       &none   &none    &kp LGUI       &mo 3          &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
 &kp LSHFT          &kp Z         &kp X          &kp C         &kp V       &kp B        &none             &none      &kp LSHFT          &none   &none    &kp PG_UP      &none          &none           &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
 &kp LEFT_ALT       &kp GRAVE     &kp LA(LG(I))  &kp BSPC      &kp SPACE                &kp RIGHT_CONTROL &kp LCMD   &mo 8                               &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
             >;
@@ -136,7 +141,7 @@
 &trans       &trans     &trans       &trans                 &trans       &trans                 &trans                                                                    &trans        &trans        &trans       &trans         &trans         &trans           &trans
 &trans       &kp N6     &kp N7       &kp N8                 &kp N9       &kp N0                 &trans                                                                    &none         &trans        &trans       &trans         &trans         &trans           &trans
 &trans       &trans     &trans       &kp LC(LS(TAB))        &kp UP       &kp LC(TAB)            &none      &trans     &trans     &none    &none    &trans     &trans      &none         &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT      &trans           &trans
-&trans       &trans     &trans       &kp LEFT               &kp DOWN     &kp RIGHT              &none      &none      &trans     &none    &none    &trans     &trans      &trans        &trans        &trans       &trans         &trans         &trans           &trans
+&trans       &trans     &trans       &kp LEFT               &kp DOWN     &kp RIGHT              &none      &none      &mo 12     &none    &none    &trans     &trans      &trans        &trans        &trans       &trans         &trans         &trans           &trans
 &mo 12        &trans     &trans       &kp LEFT_ALT          &mo 9                               &trans     &trans     &trans                       &trans     &trans      &trans                   &trans       &trans         &trans         &trans           &mo 12
             >;
         };
