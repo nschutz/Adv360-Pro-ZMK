@@ -167,11 +167,11 @@
 
         layer_stormgate_11 {
             bindings = <        
-&kp Y              &kp T         &kp E          &kp W         &kp N5      &kp Q        &kp R                                                                                                  &mo 3           &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
-&kp EQUAL          &kp TAB       &kp N1         &kp N2        &kp A       &kp A        &kp Y                                                                                                   &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
-&kp ESC            &kp S         &kp N4         &kp N3        &kp D       &kp F        &kp G             &mo 14             &mo 12              &none   &none    &kp LGUI       &mo 3          &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
-&none              &kp Z         &kp N5         &kp N6        &kp V       &kp B        &none             &none              &kp LSHFT           &none   &none    &kp PG_UP      &none          &none           &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
-&none              &kp GRAVE     &kp X          &kp C         &kp SPACE                &kp LEFT_ALT      &kp LEFT_CONTROL   &none                                &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
+&kp EQUAL          &kp N1        &kp N2         &kp N3        &kp N4      &kp N5       &tog 1                                                                                                  &mo 3           &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
+&kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T        &none                                                                                                   &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
+&kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G        &kp RETURN        &mo 14             &mo 12              &none   &none    &kp LGUI       &mo 3          &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
+&kp LSHFT          &kp Z         &kp X          &kp C         &kp V       &kp B        &none             &none              &kp LSHFT           &none   &none    &kp PG_UP      &none          &none           &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
+&kp LEFT_ALT       &kp GRAVE     &kp Y          &kp BSPC      &kp SPACE                &kp LEFT_ALT      &kp LEFT_CONTROL   &mo 14                                &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
             >;
         };
 
@@ -197,11 +197,11 @@
 
         layer_stormgate_window_position_14 {
             bindings = <
- &none   &none        &none          &kp F4        &none      &none          &none                                                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &none   &none         &kp F3         &kp F2        &kp F1      &none           &none                                                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &none   &kp F8        &kp F7         &kp F6        &kp F5      &none           &none       &trans                 &trans     &none    &none  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &none   &none         &none          &none         &none       &none           &none       &trans                &kp LSHIFT    &none      &none   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &none   &none         &none          &none         &none                       &kp LEFT_ALT &kp LEFT_CONTROL      &trans                           &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans        &trans         &kp F4        &trans      &trans          &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp Q         &kp F3         &kp F2        &kp F1      &kp T           &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp F8        &kp F7         &kp F6        &kp F5      &kp G           &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp Z         &kp X          &kp C         &kp V       &kp B           &trans  &trans  &kp LEFT_CONTROL     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans        &trans         &trans        &trans                      &trans  &trans  &trans                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
