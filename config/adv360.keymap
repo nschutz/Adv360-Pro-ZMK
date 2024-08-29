@@ -68,11 +68,11 @@
         };
     layer_musicProduction_1 {
             bindings = <
-&kp EQUAL          &kp N1        &kp N2         &kp N3        &kp N4      &kp N5             &tog 1                                                                                           &mo 3           &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
-&kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T              &none                                                                                            &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
+&kp EQUAL          &kp N1        &kp N2         &kp N3        &kp N4      &kp N5             &tog 1                                                                                           &mo 3            &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &kp MINUS
+&kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T              &none                                                                                            &none            &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
 &kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G              &kp RETURN          &mo 10       &mo 12              &none    &none  &kp LGUI       &mo 3         &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
-&kp LSHFT          &kp Z         &kp X          &kp C         &kp V       &kp B              &none               &none        &kp LSHFT          &none    &none  &kp PG_UP      &none         &none           &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
-&kp LEFT_ALT       &kp GRAVE     &kp LA(LG(I))  &kp BSPC      &kp BACKSPACE                  &kp RIGHT_CONTROL   &kp LCMD     &mo 8                             &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
+&kp LSHFT          &kp Z         &kp X          &kp C         &kp V       &kp B              &none               &none        &kp LSHFT          &none    &none  &kp PG_UP      &none         &none            &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
+&kp LEFT_ALT       &kp GRAVE     &kp LA(LG(I))  &kp BSPC      &kp BACKSPACE                  &kp RIGHT_CONTROL   &kp LCMD     &mo 8                             &kp LEFT_ALT   &kp ENTER      &kp SPACE                 &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
             >;
         };
 
@@ -123,16 +123,16 @@
  &kp BACKSPACE  &kp N6     &kp N5     &kp N4   &kp A     &kp Q        &kp W                                                           &trans  &kp RETURN   &kp G    &kp L    &kp H   &kp F   &kp RETURN
  &kp H          &kp S      &kp N8     &kp N7   &kp D     &kp F        &kp G        &kp LEFT_CONTROL  &mo 13    &none    &none  &trans  &trans  &trans       &kp RETURN   &kp G    &kp ESC  &kp W   &trans  &trans   
  &kp X          &kp Z      &kp N0     &kp N9   &kp B     &kp SPACE    &none        &none             &none     &none    &none  &trans  &none   &none        &trans       &trans   &trans   &trans  &trans  &trans
- &kp X          &kp T      &kp X      &kp C    &kp V                  &kp LSHIFT   &kp LEFT_ALT      &mo 12    &trans  &trans  &trans                    &trans   &trans   &trans  &trans  &to 0
+ &kp X          &kp T      &kp X      &kp C    &kp V                  &kp LSHIFT   &kp LEFT_ALT      &mo 12                    &trans  &trans  &trans                    &trans   &trans   &trans  &trans  &to 0
             >;
         };
-        layer_numbers_7 {
+        layer_keyboard_swap_7 {
             bindings = <
- &none    &none       &none    &kp MINUS &kp EQUAL  &none    &trans                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &none    &none       &kp N7   &kp N8    &kp N9  &none   &trans                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESC   &none       &kp N4   &kp N5    &kp N6  &none   &trans            &trans    &trans      &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT &kp LSHFT   &kp N1   &kp N2    &kp N3  &none   &trans            &trans    &kp LSHFT   &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &none    &none       &kp UP   &kp DOWN  &kp DOT         &kp RIGHT_CONTROL &kp LCMD  &trans                      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp EQUAL    &kp N6   &kp N7     &kp N8      &kp N9        &kp N0      &trans                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB      &kp Y    &kp U      &kp I       &kp O         &kp P       &trans                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC      &kp H    &kp J      &kp K       &kp L         &kp SEMI    &trans            &trans    &trans      &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT    &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &trans            &trans    &kp LSHFT   &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_ALT &none    &none      &none       &none                     &kp RIGHT_CONTROL &kp LCMD  &trans                      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
