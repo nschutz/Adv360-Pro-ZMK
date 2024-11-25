@@ -103,7 +103,7 @@
         &kp TAB            &kp Q         &kp W          &kp E         &kp R       &kp T        &kp LEFT_ALT                                                                                      &none           &kp Y    &kp U      &kp I       &kp O         &kp P       &kp BSLH
         &kp ESC            &kp A         &kp S          &kp D         &kp F       &kp G        &kp RETURN        &mo 7      &kp LA(RIGHT_CONTROL) &none   &none    &kp LGUI       &mo 3          &kp BACKSPACE   &kp H    &kp J      &kp K       &kp L         &kp SEMI    &kp SQT
         &kp LSHFT          &kp Z         &kp X          &kp C         &kp V       &kp B        &none             &none      &kp LSHFT             &none   &none    &kp PG_UP      &none          &none           &kp N    &kp M      &kp COMMA   &kp DOT       &kp FSLH    &kp RSHFT
-        &kp LCMD           &kp GRAVE     &kp LS(LC(I))  &kp BSPC      &kp SPACE                &kp LEFT_ALT      &kp LEFT_CONTROL   &mo 8                                  &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
+        &kp LCMD           &kp GRAVE     &kp LS(LC(I))  &kp BSPC      &kp SPACE                &kp LEFT_ALT      &kp LEFT_CONTROL   &mo 9                                  &kp LEFT_ALT   &kp ENTER      &kp SPACE                &kp UP     &kp DOWN    &kp LBKT      &kp RBKT    &sl 4
                     >;
         };
 
@@ -145,13 +145,13 @@
 &mo 12        &trans     &trans       &kp LEFT_ALT          &mo 9                               &trans     &trans     &trans                       &trans     &trans      &trans                   &trans       &trans         &trans         &trans           &mo 12
             >;
         };
-        layer_option_r_9 {
-            bindings = <
- &trans  &trans  &trans  &trans             &trans  &trans                &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans             &trans  &trans                &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &kp LG(LA(MINUS))  &trans  &kp LG(LA(EQUAL))     &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans             &trans  &trans                &trans  &trans  &trans     &none    &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans             &trans                        &trans  &trans  &trans                     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+        layer_rts_function_9 {
+          bindings = <
+&trans       &kp F10    &kp F11      &kp F12                &kp F13      &kp F14                &kp F15                                                                                     &trans        &trans        &trans       &trans         &trans         &trans           &trans
+&trans       &none      &none        &none                  &none        &none                  &trans                                                                                      &none         &trans        &trans       &trans         &trans         &trans           &trans
+&trans       &kp F4     &kp F3       &kp F2                 &kp F1       &none                  &none             &trans                &trans     &none    &none    &trans     &trans      &none         &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT      &trans           &trans
+&trans       &kp F9     &kp F8       &kp F7                 &kp F6       &none                  &none             &none                 &mo 12     &none    &none    &trans     &trans      &trans        &trans        &trans       &trans         &trans         &trans           &trans
+&none        &trans     &trans       &kp LEFT_ALT           &mo 9                               &kp LEFT_ALT      &kp LEFT_CONTROL      &trans                       &trans     &trans      &trans                      &trans       &trans         &trans         &trans           &mo 12
             >;
         };
 
