@@ -46,9 +46,9 @@
             key-positions = <12 13>;
             bindings = <&to 0>;
         };
-        combo_layer_pick {
+        combo_layer_pick_two {
             timeout-ms = <75>;
-            key-positions = <0 1>;
+            key-positions = <57 58>;
             bindings = <&to 12>;
         };
     };
